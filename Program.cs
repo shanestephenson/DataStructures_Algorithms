@@ -28,7 +28,7 @@ namespace DataStructures_Algorithms
     private static void RunPermutations()
     {
       string str1 = "canada";
-      string str2 = "cadana";
+      string str2 = "caadna";
 
       var timer = new Stopwatch();
       timer.Start();
