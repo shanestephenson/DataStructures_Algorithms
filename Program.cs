@@ -7,7 +7,7 @@ namespace DataStructures_Algorithms
   {
     static void Main(string[] args)
     {
-      RunPermutations();
+      //RunPermutations();
     }
 
     private static void RunIsUnique()
@@ -41,5 +41,6 @@ namespace DataStructures_Algorithms
       Console.WriteLine(String.Format("Time taken: {0}", timeTaken));
       Console.WriteLine(String.Format("{0} and {1} are permutations of one another? {2}", str1, str2, result));
     }
+
   }
 }
